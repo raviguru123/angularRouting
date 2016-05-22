@@ -18,8 +18,8 @@ app.config(function($stateProvider, $urlRouterProvider){
 	state("state2",{
 		url:"/state2",
 		views:{
-			"viewB":{templateUrl:"state1.html"},
-			"viewA":{templateUrl:"state2.html"}
+			"viewA":{templateUrl:"state1.html"},
+			"viewB":{templateUrl:"state2.html"}
 		}
 	}).
 	state("state2.list",{
