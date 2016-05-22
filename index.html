@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html ng-app="myapp">
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+</head>
+<body ng-app="myapp" style="margin-left:50px">
+	<br/>
+	<br/>
+	<br/>
+	<label></label>
+	<ul>
+		<li><a ui-sref="state1">Route1</a></li>
+		<li><a ui-sref="state2">Route2</a></li>
+	</ul>
+	<hr/>
+	<h1>Block Section start from here</h1>
+	<div class="row">
+		<div class="col-md-12">
+			<div ui-view>
+			</div>
+		</div>
+	</div>	
+</body>
+
+<!--javascript file reference start from here-->
+
+<script src="lib/angular.min.js"></script>
+<script src="lib/angular-ui-router.js"></script>
+<script src="lib/jquery.min.js"></script>
+<script src="lib/bootstrap.min.js"></script>
+<script src="js/index.js"></script>
+<script src="js/app.js"></script>
+
+</html>
